@@ -18,7 +18,7 @@
 
 如果你已经是算法老手、想要严谨推导和论文细节,这里可能太"浅"——那类资源已经很多,见文末「延伸阅读」。
 
-## 目录
+## 目录(100 题 · 11 个方向)
 
 | 分类 | 题量 | 内容 |
 |---|---|---|
@@ -26,6 +26,13 @@
 | [AI Agent(智能体)](docs/02-ai-agent.md) | 9 | Agent 组件、ReAct、规划、记忆、工具调用、多智能体… |
 | [RAG(检索增强)](docs/03-rag.md) | 10 | 工作原理、切块、Embedding、重排、Lost in the Middle… |
 | [模型与 Agent 评估](docs/04-评估.md) | 4 | BLEU 局限、MMLU/HumanEval、LLM-as-a-Judge… |
+| [Prompt 工程](docs/05-prompt工程.md) | 11 | few-shot、CoT、系统提示、结构化输出、提示注入、越狱… |
+| [微调与对齐](docs/06-微调与对齐.md) | 11 | LoRA/QLoRA、PEFT、指令微调、RLHF/DPO、灾难性遗忘… |
+| [工具调用 & MCP](docs/07-工具调用与mcp.md) | 8 | Function Calling、MCP、SubAgent、工具选择、agent loop… |
+| [部署与推理优化](docs/08-部署与推理优化.md) | 11 | KV cache、量化、Flash Attention、流式、蒸馏、LLMOps… |
+| [向量与 Embedding](docs/09-向量与embedding.md) | 8 | 向量、稀疏/稠密、相似度度量、向量库、混合检索… |
+| [多模态](docs/10-多模态.md) | 6 | VLM、CLIP、扩散模型、多模态 RAG、模态对齐… |
+| [AI 应用实战 & 安全](docs/11-应用实战与安全.md) | 10 | 护栏、人在回路、沙箱、查询改写 HyDE、引用溯源、防泄露… |
 
 > 持续扩充中。想看哪类题、或哪道讲得不够清楚,欢迎提 Issue。
 
@@ -49,8 +56,11 @@
 
 ## 题目来源 & 致谢
 
-- 面试题目主要整理自开源题库 **[datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)**(Datawhale 出品),都是真实高频面试题。
-- 感谢这些优秀的进阶题库:[wdndev/llm_interview_note](https://github.com/wdndev/llm_interview_note)、[WeThinkIn/AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book)。
+面试题目整理自以下开源题库,都是真实高频面试题(每个分类页顶部标注了对应来源):
+- **[datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)**(Datawhale 出品)— 大模型基础、Agent、RAG、评估、多模态(VLM)
+- **[amitshekhariitbhu/ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions)** — Prompt 工程、微调对齐、工具调用/MCP、部署推理、向量、应用实战与安全
+
+感谢这些优秀的进阶题库:[wdndev/llm_interview_note](https://github.com/wdndev/llm_interview_note)、[WeThinkIn/AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book)。
 
 ## 内容是怎么生成的(透明说明)
 
@@ -70,7 +80,8 @@
 
 ## Roadmap
 
-- [ ] 扩到 100+ 题(补充 Prompt 工程、Function Calling、MCP、多模态等方向)
+- [x] 扩到 100 题 · 11 个方向(Prompt 工程、微调对齐、Function Calling/MCP、部署推理、向量、多模态、应用安全)
+- [ ] 继续扩充:AIGC/绘画、推荐搜索、代码智能、具身智能等方向
 - [ ] 每道题加"面试官可能追问"
 - [ ] 配套**每日一题推送 bot**(已有原型:飞书/邮件/Telegram 自托管,每天推一题到你私聊)
 

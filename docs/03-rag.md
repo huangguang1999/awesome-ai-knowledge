@@ -2,7 +2,7 @@
 
 > 给 AI 配一个'随时能翻的资料库',让它少瞎编、能用上你自己的知识。
 
-> 题目出自开源面试题库 [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents);答案为 AI 辅助生成的大白话版,使用前请自行核对。
+> 题目出自 [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents);答案为 AI 辅助生成的大白话版,使用前请自行核对。
 
 [← 返回首页](../README.md)
 

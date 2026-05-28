@@ -2,7 +2,7 @@
 
 > 让 AI 不止会聊天,还能自己规划、调工具、干完一件事。
 
-> 题目出自开源面试题库 [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents);答案为 AI 辅助生成的大白话版,使用前请自行核对。
+> 题目出自 [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents);答案为 AI 辅助生成的大白话版,使用前请自行核对。
 
 [← 返回首页](../README.md)
 
